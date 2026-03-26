@@ -26,6 +26,6 @@ bodyTag.style.fontFamily = "'Arial', 'Helvetica', 'Arial', sans-serif";``
 
 for (let i = 0; i < 25; i++) {
     if(i % 2 === 0) {
-        tableTag.children[i].style.background = 'yellow';
+        tableTag.children[i].classList.add('selected');
     }
 }
