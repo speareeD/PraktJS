@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+.table div {
+    border: 1px solid black;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
+}
